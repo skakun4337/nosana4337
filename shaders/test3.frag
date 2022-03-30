@@ -1,0 +1,12 @@
+#version 430 core
+out vec4 FragColor;
+  
+in VData{
+  vec2 texCoords;
+  vec3 normals;
+} vdata; 
+
+void main()
+{
+	FragColor=vec4(0,1,0, 1.0);
+}
